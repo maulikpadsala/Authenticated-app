@@ -1,0 +1,115 @@
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\PolicyBazar.dll.config
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\PolicyBazar.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\PolicyBazar.pdb
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Antlr3.Runtime.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\EntityFramework.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\EntityFramework.SqlServer.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Google.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Web.Infrastructure.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Newtonsoft.Json.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Owin.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Helpers.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Mvc.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Optimization.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Razor.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.WebPages.Deployment.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.WebPages.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.WebPages.Razor.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\WebGrease.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Helpers.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Mvc.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Optimization.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.Razor.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.WebPages.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.WebPages.Deployment.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\System.Web.WebPages.Razor.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Newtonsoft.Json.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Antlr3.Runtime.pdb
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\EntityFramework.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\EntityFramework.SqlServer.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Google.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\obj\Debug\PolicyBazar.dll
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\obj\Debug\PolicyBazar.pdb
+E:\Jaynil\Election_Smart_Voting\InsurancePolicyWeb\PolicyBazar\obj\Debug\PolicyBazar.csprojResolveAssemblyReference.cache
+D:\Parth_Project\PolicyBazar\bin\PolicyBazar.dll.config
+D:\Parth_Project\PolicyBazar\bin\PolicyBazar.dll
+D:\Parth_Project\PolicyBazar\bin\PolicyBazar.pdb
+D:\Parth_Project\PolicyBazar\bin\Newtonsoft.Json.dll
+D:\Parth_Project\PolicyBazar\bin\System.Web.Helpers.xml
+D:\Parth_Project\PolicyBazar\bin\System.Web.Mvc.xml
+D:\Parth_Project\PolicyBazar\bin\System.Web.Optimization.xml
+D:\Parth_Project\PolicyBazar\bin\System.Web.Razor.xml
+D:\Parth_Project\PolicyBazar\bin\System.Web.WebPages.xml
+D:\Parth_Project\PolicyBazar\bin\System.Web.WebPages.Deployment.xml
+D:\Parth_Project\PolicyBazar\bin\System.Web.WebPages.Razor.xml
+D:\Parth_Project\PolicyBazar\bin\Antlr3.Runtime.pdb
+D:\Parth_Project\PolicyBazar\bin\EntityFramework.xml
+D:\Parth_Project\PolicyBazar\bin\EntityFramework.SqlServer.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.Google.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Parth_Project\PolicyBazar\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Parth_Project\PolicyBazar\obj\Debug\PolicyBazar.csprojResolveAssemblyReference.cache
+D:\Parth_Project\PolicyBazar\obj\Debug\PolicyBazar.dll
+D:\Parth_Project\PolicyBazar\obj\Debug\PolicyBazar.pdb
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\PolicyBazar.dll.config
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\PolicyBazar.dll
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\PolicyBazar.pdb
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Newtonsoft.Json.dll
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.Helpers.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.Mvc.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.Optimization.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.Razor.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.WebPages.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Antlr3.Runtime.pdb
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\EntityFramework.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\EntityFramework.SqlServer.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\obj\Debug\PolicyBazar.csproj.AssemblyReference.cache
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\obj\Debug\PolicyBazar.csproj.CoreCompileInputs.cache
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\obj\Debug\PolicyBazar.csproj.CopyComplete
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\obj\Debug\PolicyBazar.dll
+C:\Users\Sheth Multitech\Downloads\PolicyBazar\PolicyBazar\obj\Debug\PolicyBazar.pdb

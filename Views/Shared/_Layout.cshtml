@@ -1,0 +1,98 @@
+﻿@using System.Data
+@using PolicyBazar.Models
+@using PolicyBazar.Controllers
+
+@*@{
+    int UserId = 0;
+    if (Session["UserId"] != null)
+    {
+        UserId = Convert.ToInt32(Session["UserId"]);
+    }
+    else
+    {
+        Response.Redirect("/Authentication/Login");
+    }
+}*@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("style_pages", false)
+   
+    <style>
+        .w3-button:hover {
+            color: #000 !important;
+            background-color: #f0f5ff !important;
+        }
+        .navbar-inverse {
+            background-color: #000000 !important;
+            border-color: #000000 !important;
+        }
+
+            .navbar-inverse .navbar-brand {
+                color: #bcd3f7 !important;
+            }
+
+            .navbar-inverse .navbar-nav > li > a {
+                color: #6db3f2 !important;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+@if (Session["UserID"] != null)
+{
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("PolicyBazar", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("About", "About", "Home")</li>
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("Reports", "Reports", "Reports")</li>
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("Logout", "LogOut", "Authentication")</li>    
+                    @*}
+                    else
+                    { 
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("Login", "Login", "Authentication")</li>
+                    <li class="w3-bar-item w3-button">@Html.ActionLink("Register", "Register", "Authentication")</li>
+                    }*@
+                </ul>
+                
+                @Html.Partial("_LoginPartial")
+            </div>
+
+        </div>
+}
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - All rights reserved by Policy Bazar</p>
+        </footer>
+    </div>
+
+
+
+    @RenderSection("script_pages", false)
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/bundles/bootstrap")
+  
+</body>
+</html>

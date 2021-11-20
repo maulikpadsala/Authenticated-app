@@ -1,0 +1,513 @@
+.login_body
+{
+  background-image: url('../img/login_bgg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.login_body > .main-content
+{
+  margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+    overflow-y: auto;
+}
+.login_body > .main-content > .container-fluid
+{
+  min-height: 100vh;
+}
+.login_body > .main-content > .container-fluid > .row
+{
+  min-height: 100vh;
+}
+.lines
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  margin: 0px;
+  width: 100%;
+}
+
+.line{
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+.line:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    animation: drop 7s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}  
+.line:nth-child(1)
+{    
+  margin-left: -20%;
+} 
+.line:nth-child(1)::after
+{
+  animation-delay: 2s;
+}
+.line:nth-child(3)
+{
+  margin-left: 20%;
+}
+.line:nth-child(3):after
+{
+  animation-delay: 2.5s;
+}
+
+@keyframes drop
+{
+  0%
+  {
+    top: -50%
+  }
+  100%
+  {
+    top: 110%
+  }
+}
+.login_img_part > a > img
+{
+  width: 150px;
+}
+.login_btn
+{
+  background-color: #04127b;
+  border-color: #04127b;
+  box-shadow: none;
+  color: white;
+}
+.login_btn:hover,
+.login_btn:focus,
+.login_btn:active
+{
+  background-color: #04127b;
+  border-color: #04127b;
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clock {
+  background-color: #f3f3f9;
+  padding: 0px 0px;
+  height: 40px;
+  line-height: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center!important;
+  align-items: center!important;
+  border-radius: 40px;
+}
+.clock p {
+ margin: 0px 20px; 
+}
+.clock p#Date {
+ margin: 0px 0px 0px 20px; 
+}
+.clock p span {
+  font-weight: bold;
+}
+
+
+#point {
+  position:relative;
+  -moz-animation:mymove 1s ease infinite;
+  -webkit-animation:mymove 1s ease infinite;
+}
+@-webkit-keyframes mymove 
+{
+  0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+  50% {opacity:0; text-shadow:none; }
+  100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }    
+}
+@-moz-keyframes mymove 
+{
+  0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+  50% {opacity:0; text-shadow:none; }
+  100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }    
+}
+
+
+
+
+
+.action_btns_box
+{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.add_new_btn
+{
+  background-color: #04127b;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.add_new_btn:hover,
+.add_new_btn:focus,
+.add_new_btn:active
+{
+  background-color: #04127b;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.view_list_btn
+{
+  background-color: #757575;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.view_list_btn:hover,
+.view_list_btn:focus,
+.view_list_btn:active
+{
+  background-color: #757575;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.save_btn
+{
+  background-color: #04127b;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.save_btn:hover,
+.save_btn:focus,
+.save_btn:active
+{
+  background-color: #04127b;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.cancel_btn
+{
+  background-color: #757575;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.cancel_btn:hover,
+.cancel_btn:focus,
+.cancel_btn:active
+{
+  background-color: #757575;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.edit_btn
+{
+  background-color: #04127b;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 2px 10px;
+}
+.edit_btn:hover,
+.edit_btn:focus,
+.edit_btn:active
+{
+  background-color: #04127b;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.delete_btn
+{
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 2px 10px;
+}
+.delete_btn:hover,
+.delete_btn:focus,
+.delete_btn:active
+{
+  background-color: #f44336;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.view_details_btn
+{
+  background-color: #04127b;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 2px 10px;
+}
+.view_details_btn:hover,
+.view_details_btn:focus,
+.view_details_btn:active
+{
+  background-color: #04127b;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+.close_btn
+{
+  background-color: #757575;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.close_btn:hover,
+.close_btn:focus,
+.close_btn:active
+{
+  background-color: #757575;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+
+.profile_edit_btn
+{
+  background-color: #04127b;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.profile_edit_btn:hover,
+.profile_edit_btn:focus,
+.profile_edit_btn:active
+{
+  background-color: #04127b;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+
+
+
+.save_hr
+{
+  border-top: 1px dashed #04127b;
+}
+
+
+.dataTables_wrapper
+{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center!important;
+  align-items: center!important;
+  -ms-flex-pack: justify!important;
+  justify-content: space-between!important;
+}
+.dataTables_wrapper .btn-group
+{
+  background-color: #f3f3f9;
+  padding: 0px;
+  border-radius: 5px;
+}
+.dataTables_wrapper .btn-group .btn
+{
+    color: #74788d;
+    background-color: transparent;
+    border-color: transparent;
+    height: 24px;
+    line-height: 24px;
+    padding: 0px 10px;
+    font-size: 13px;
+}
+.dataTables_wrapper .btn-group .btn:hover,
+.dataTables_wrapper .btn-group .btn:focus,
+.dataTables_wrapper .btn-group .btn:active
+{
+    color: #04127b;
+    background-color: transparent !important;
+    border-color: transparent;
+    outline: none;
+    text-decoration: none;
+}
+div.dataTables_wrapper div.dataTables_filter label
+{
+    margin: 0px;
+}
+div.dataTables_wrapper div.dataTables_paginate
+{
+  width: 100%;
+}
+.page-item.active .page-link
+{
+  color: #fff;
+  background-color: #04127b;
+  border-color: #04127b;
+}
+.table.custom_datatable td, 
+.table.custom_datatable th
+{
+  padding: 5px;
+}
+.dataTables_scroll {
+    overflow:hidden;
+}
+
+.card-header {
+    background-color: white;
+}
+
+
+input, select
+{
+  height: 30px !important;
+  line-height: 30px !important;
+  padding: 0px 5px !important;
+}
+
+
+.change_password_img
+{
+  text-align: center;
+}
+.change_password_img img
+{
+    height: auto;
+    width: 100%;
+}
+
+
+.completed_color
+{
+  border-left: 4px double #303f9f;
+  padding: 10px;
+  background-color: #d6d9ec;
+  border-radius: 0px 5px 5px 0px;
+}
+.completed_color > h5
+{
+  color: #303f9f;
+}
+.success_color
+{
+  border-left: 4px double #43a047;
+  padding: 10px;
+  background-color: #d9ecda;
+  border-radius: 0px 5px 5px 0px; 
+}
+.success_color > h5
+{
+  color: #43a047;
+}
+.failed_color
+{
+  border-left: 4px double #e53935;
+  padding: 10px;
+  background-color: #fad7d7;
+  border-radius: 0px 5px 5px 0px;
+}
+.failed_color > h5
+{
+  color: #e53935;
+}
+.pending_color
+{
+  border-left: 4px double #757575;
+  padding: 10px;
+  background-color: #e3e3e3;
+  border-radius: 0px 5px 5px 0px;
+}
+.pending_color > h5
+{
+  color: #757575;
+}
+
+
+
+
+
+#toast-container {
+    
+}
+.toast {
+    background-color: white;
+}
+.toast-error {
+    background-color:red;
+}
+.toast-success {
+    background-color: green;
+}
+.toast-info {
+    background-color: #3276b1;
+}
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section style_pages{
+<link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css' rel='stylesheet' />
+}
+<div class="jumbotron" style="height: 275px; width: 131.75%; margin-left: -16%; background: url(../Content/Image/growing.png), #6DB3F2; background-repeat: no-repeat;  background-position: top; border: 1px dotted; ">
+    <h3>India’s largest digital insurance marketplace<sup><h3>Compare | Buy | Save</h3></sup></h3>
+</div>
+
+<div class="row">
+    <div id="errMsg"></div>
+    <div class="col-md-4">
+        @Html.Label("Customer Name :", new { @class = "fonts" })
+        @Html.TextBox("txtCustomerName", " ", new { @class = "form-control", @maxlength = "50", autocomplete = "off" ,Tabindex="1"})<br />
+      
+        @Html.Label("Scheme Name :", new { @class = "fonts" })
+        <select id="ddlSchemeName" class="form-control" style="border: 1px solid black;" tabindex="4"></select><br />
+        @Html.Label("Commission : (%)", new { @class = "fonts" })
+        @Html.TextBox("txtCommission", " ", new { @class = "form-control", @maxlength = "50", autocomplete = "off", disabled = "disabled" })<br />
+
+        <br />
+         <button id="btnSave" style="float: left; margin-top: -15px; margin-left: 0%; border-radius: 5px; background-color: #e2ecff; " type="submit" class="button button2">Save</button> &nbsp;&nbsp;&nbsp;
+        <button id="btnCancel" style="float: left; margin-top: -15px; margin-left: 3%; border-radius: 5px; background-color: #e2ecff" type="reset" class="button button2">Cancel</button>
+    </div>
+    <div class="col-md-4">
+        @Html.Label("Policy No :", new { @class = "fonts" })
+        @Html.TextBox("txtPolicyNo", " ", new { @class = "form-control", @maxlength = "50", autocomplete = "off", Tabindex = "2" })<br />
+
+        @Html.Label("Policy Amount :", new { @class = "fonts" })
+        @Html.TextBox("txtPolicyAmt", " ", new { @class = "form-control", @maxlength = "50", autocomplete = "off", Tabindex = "5", @onKeyDown = "if(this.value.length==20 && event.keyCode!=8) return false;" })<br />
+
+      
+    </div>
+    <div class="col-md-4">
+        @Html.Label("Agent Name :", new { @class = "fonts" })
+        <select id="ddlAgentName" class="form-control" style="border: 1px solid black;" tabindex="3"></select><br />
+
+        <label for="dtp_input1" class="col-form-label">Date</label>
+        <input type="text" id="startDate" maxlength="10" tabindex="5" name="FromDate" class="form-control">
+
+    </div>
+    <div class="col-md-4">
+           
+    </div>
+
+    
+</div>
+@section script_pages
+        {
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/ViewJs/PolicyDetails.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" defer> </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#startDate").datepicker(
+                {
+                    changeMonth: true,
+                    changeYear: true,
+                    dateFormat: 'dd-mm-yy',
+                });
+            var dates = new Date();
+            $("#startDate").val($.datepicker.formatDate("dd-mm-yy", dates));
+
+        });
+    </script>
+}
